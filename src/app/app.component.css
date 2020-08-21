@@ -39,3 +39,26 @@
   z-index : 100000; /*behind dot*/
   border-radius : 50%;
 }
+
+.sec-hand
+{
+  background: #ff6767;
+  width: 1px;/*Thickness line*/
+  height : 50%;/*height of sec hand*/
+  transform-origin : 50% 50%;/*Default value*/ /*https://www.w3schools.com/cssref/trycss3_transform-origin_inuse.htm website help*/
+  position : absolute; /*does center*/
+  top : 10%;
+  left : 50%;
+  border-radius : 100% 100% 0 0;
+}
+
+.min-hand
+{
+  background : #d6d6d6; 
+  width : 3px;
+  height : 40%;
+  transform-origin : 50% 50%;
+  position : absolute; /*again does center*/
+  top : 10%; /*line go up dot*/
+  left : 
+}
