@@ -22,7 +22,9 @@ export class AppComponent  {
   }
   updateClock(date)
   {
-    
+    this.secHand.nativeElement.style.transform = 'rotate(' + date.getSeconds() * 6 + 'deg)';
+    this.minHand.nativeElement.style.transform = 'rotate(' + date.getMinutes() * 6 + 'deg)';
+    this.hrHand.nativeElement.style.transform = 'rotate(' + date.getHours() * 30 + (date.getMinutes() * 0.5) + 'deg)';
   }
 }
 
