@@ -1,0 +1,10 @@
+*
+{
+  box-sizing: border-box;
+}
+.dummy-card
+{
+  background-color: #bbe1fa; /* Blue color entire clock */
+  width : 100vw;/* hundredths of the viewport width*/
+  height : 100vh;/*hundredths of the viewport height*/
+}
