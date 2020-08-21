@@ -7,4 +7,18 @@
   background-color: #bbe1fa; /* Blue color entire clock */
   width : 100vw;/* hundredths of the viewport width*/
   height : 100vh;/*hundredths of the viewport height*/
+  display : flex;
+  justify-content: center; /* Everything[content] goes to center */
+  align-items: center; /*To the center of the page*/
+}
+
+.clock
+{
+  width : 200px;
+  height : 200px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background:#fff;/*inner white*/
+  
 }
