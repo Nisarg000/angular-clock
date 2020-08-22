@@ -5,7 +5,7 @@ import { Component, VERSION,OnInit,ViewChild, ElementRef } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent  {
+export class AppComponent implements OnInit {
   name = 'Angular ' + VERSION.major;
 
   @ViewChild('hrHand',{static:false}) hrHand:ElementRef;
